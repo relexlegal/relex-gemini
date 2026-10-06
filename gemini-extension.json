@@ -1,0 +1,13 @@
+{
+  "name": "relex",
+  "version": "0.1.7",
+  "mcpServers": {
+    "relex": {
+      "httpUrl": "https://relex.legal/api/mcp",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
