@@ -50,15 +50,15 @@ Always name **`relex`**, URL `https://relex.legal/api/mcp` (Streamable HTTP).
 
 ## How it works
 
-Gemini connects over **Streamable HTTP** MCP. Tools: eleven MCP tools (list/read/diagnose/save/correct/conclude, professionals, `search`, `execute`).
+Gemini connects over **Streamable HTTP** MCP. Tools: twelve MCP tools (list/read/read-source/diagnose/save/correct/conclude, professionals, `search`, `execute`).
 Auth: **`/mcp auth relex`** (browser OAuth) on CLI, or **API key** / Enterprise
 IdP wiring as configured by admin.
 
 
 ## MCP tools (remote server)
 
-The hosted connector at `https://relex.legal/api/mcp` exposes **eleven** tools:
-`list_matters`, `read_matter_context`, `diagnose_matter_sources`,
+The hosted connector at `https://relex.legal/api/mcp` exposes **twelve** tools:
+`list_matters`, `read_matter_context`, `read_matter_source`, `diagnose_matter_sources`,
 `save_matter_work_product`, `correct_matter_ontology`, `conclude_matter_session`,
 `find_legal_professionals`, `read_legal_professional`, `prepare_professional_request`,
 `search`, and `execute`. Auth is OAuth 2.1 + PKCE; connector scopes are
