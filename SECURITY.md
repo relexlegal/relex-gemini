@@ -10,7 +10,7 @@ Relex lets you use Gemini on legal matters **without exposing client PII**.
 
 ## Client PII never reaches the model
 
-- Parties sealed client-side; documents redacted client-side
+- Parties sealed client-side; documents read and redacted by the Relex Private Model on Relex servers by default
 - MCP `execute` blocks plaintext party/document endpoints
 
 ## Reporting

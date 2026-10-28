@@ -4,8 +4,8 @@ Connect Gemini to the remote MCP server at `https://relex.legal/api/mcp`.
 
 ## What you get
 
-Eleven tools over Streamable HTTP: matter list/context/diagnose, save work
-product, ontology corrections, conclude session, professional discovery, plus
+Twelve tools over Streamable HTTP: matter list/context/diagnose/read source,
+save work product, ontology corrections, conclude session, professional discovery, plus
 generic `search` / `execute` against the validated Relex API. Auth is browser
 OAuth 2.1 + PKCE (no API-key paste required for interactive use).
 
