@@ -1,6 +1,6 @@
 {
   "name": "relex",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Relex legal practice management for Gemini CLI: work on your Relex matters over a PII-safe MCP connector (thirteen tools: ten matter tools plus search, read_api and execute). Party identities are sealed with a key only the user holds, documents are read and redacted by the Relex Private Model, and the assistant works with de-identified labels.",
   "mcpServers": {
     "relex": {
