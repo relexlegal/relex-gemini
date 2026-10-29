@@ -23,7 +23,7 @@ that carry the `gemini-cli-extension` topic and a root `gemini-extension.json`.
 There is no form.
 
 ## Done in this branch
-- [x] `gemini-extension.json` 0.1.9 with `description`, `mcpServers.relex.httpUrl`, OAuth enabled, `contextFileName: GEMINI.md`.
+- [x] `gemini-extension.json` 0.1.10 with `description`, `mcpServers.relex.httpUrl`, OAuth enabled, `contextFileName: GEMINI.md`.
 - [x] Skills mirrored to the extension root (`skills/`, `references/`) — Gemini CLI only discovers `<extension root>/skills/<name>/SKILL.md`. Source of truth stays `plugin/`; `python3 scripts/sync_gemini_extension.py` regenerates, `--check` verifies (run it in CI / before tagging).
 - [x] GEMINI.md and SECURITY.md: thirteen tools; reading default corrected.
 - [ ] `plugin/agents/` is not mirrored (Gemini subagents are a preview feature).
@@ -31,5 +31,5 @@ There is no form.
 ## User must do
 - [ ] Make sure github.com/relexlegal/relex-gemini is public.
 - [ ] Add the repo topic `gemini-cli-extension` (repo currently has no topics).
-- [ ] Tag and publish a GitHub release `v0.1.9`.
+- [ ] Tag and publish a GitHub release `v0.1.10`.
 - [ ] Smoke test: `gemini extensions install https://github.com/relexlegal/relex-gemini --consent`, then authenticate the `relex` MCP server (`/mcp auth relex`) and check that the Relex skills and the thirteen tools are listed (`/mcp`).
