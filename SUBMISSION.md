@@ -1,5 +1,7 @@
 # Submission — Gemini CLI extension gallery
 
+> **Status 2026-11-03 (Europe/Berlin):** Repo public; topics `gemini-cli-extension`, `mcp`, `legal` added; release v0.1.11 created; `gemini extensions install` verified. Gallery listing waits for the daily crawl. The checklist below is historical.
+
 > Prepared 2026-10-28; updated the same day for MCP server version 1.1.0
 > (branch `docs/read-api-1.1.0`). Nothing has been submitted. The backend with
 > neutral server instructions, data-only responses and the `read_api` tool is
